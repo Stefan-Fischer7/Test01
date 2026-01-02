@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Station 1: Beispiel",
+    "desc": "Hier steht später die Info zur Station (Öffnungszeiten, Programm, etc.).",
+    "lat": 50.5558,
+    "lng": 9.6808,
+    "audio": "media/station1.mp3"
+  },
+  {
+    "name": "Station 2: Beispiel",
+    "desc": "Noch eine Station. Du kannst hier auch Links oder Hinweise einbauen.",
+    "lat": 50.5612,
+    "lng": 9.6745
+    
+  }
+]

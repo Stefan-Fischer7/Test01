@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+	<head lang="de">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Test Projekt – Stefan Fischer</title>
+
+		<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <link rel="icon" href="data:,">
+	</head>
+
+	<body>
+		<header class="topbar">
+		  <h1 class="brand">Test 01</h1>
+		  <p class="subtitle">Fulda</p>
+      <button id="locateBtn" class="btn" type="button">📍 Meinen Standort anzeigen</button>
+      <p id="statusText" class="status"></p>
+		</header>
+
+		<main class="content">
+      <div id="map" class="map"></div>
+      <section class="panel" aria-label="Stationen">
+        <div class="panelHeader">
+          <h2 class="panelTitle">Stationen</h2>
+          <p class="panelHint" id="panelHint">Tippe eine Station an</p>
+        </div>
+
+        <ul id="stationList" class="list"></ul>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
